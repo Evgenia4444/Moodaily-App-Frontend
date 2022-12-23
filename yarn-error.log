@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/yevgenia/Desktop/Web-development/node_modules/.bin:/Users/yevgenia/Desktop/node_modules/.bin:/Users/yevgenia/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/Users/yevgenia/.npm/_npx/e8d9921bba236b1e/node_modules/.bin:/Users/yevgenia/.rbenv/shims:/Users/yevgenia/.rbenv/shims:/Users/yevgenia/.rbenv/shims:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.13.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOSPC: no space left on device, copyfile '/Users/yevgenia/Library/Caches/Yarn/v6/npm-react-native-0.70.5-f60540b21d338891086e0a834e331c124dd1f55c-integrity/node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/JSApplicationCausedNativeException.java' -> '/Users/yevgenia/Desktop/Web-development/simple-fetch/node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/JSApplicationCausedNativeException.java'
+
+npm manifest: 
+  {
+    "dependencies": {
+      "expo": "^47.0.0",
+      "react": "18.1.0",
+      "react-dom": "18.1.0",
+      "react-native": "0.70.5",
+      "react-native-web": "~0.18.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.19.3"
+    },
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "version": "1.0.0",
+    "private": true,
+    "name": "simple-fetch"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
